@@ -37,6 +37,11 @@
         text-decoration: none;
     }
 
+    #active {
+        color: #51797c;
+        font-weight: bolder;
+    }
+
 /* About Me section in index.html */
 #aboutMe img {
     float: left;
