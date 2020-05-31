@@ -1,0 +1,91 @@
+* {
+    font-family: Ubuntu! important;
+}
+
+#bckground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    opacity: 0.08;
+    z-index:-1;
+}
+
+/* navbar style */
+    nav.container {
+        max-width: 100%;
+        background-color: #dff1f177;
+        border-bottom: #629296  1px solid;
+    }
+
+    li:nth-of-type(1), li:nth-of-type(2) {
+        border-right: #cfd4d4 solid 1px;    
+    }
+
+    #Dilan {
+        background-color:#243030;
+        color: white;
+    }
+
+    a {
+        color: #243030;
+        font-size: large;
+    }
+
+    a:hover {
+        color: #629296;
+        text-decoration: none;
+    }
+
+/* About Me section in index.html */
+#aboutMe img {
+    float: left;
+}
+
+#aboutMe p {
+    word-wrap: break-word;
+    float: left;
+}
+
+
+/* contact section style in contact.html */
+    form {
+        border: #c8dee0 dotted 2px;
+        color: #243030;
+        background-color: #ffffff77;
+    }
+    
+    .btn {
+        background-color: #243030;
+        border: wheat;
+    }
+    .btn:hover {
+        background-color: #629296;
+}
+
+section {
+    border: #c8dee0 dotted 2px;
+    color: #243030;
+    background-color: #ffffff77;
+}
+
+/* portfolio images in portfolio.html */
+#portfolioImages img {
+    max-width: 360px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* footer style */
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px; 
+        background-color: rgb(19, 17, 17);
+        color: #c9d0d1;
+        text-align: center;
+        border-top: 3px #629296 solid;
+    }
