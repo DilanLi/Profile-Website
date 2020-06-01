@@ -1,16 +1,11 @@
-* {
-    font-family: Ubuntu! important;
-}
+/* overall style */
+    body {
+        font-family: Ubuntu! important;
+    }
 
-#bckground {
-    position: absolute;
-    left: 0;
-    top: 0;
-    object-fit: cover;
-    opacity: 0.08;
-    z-index:-1;
-}
 
+
+    
 /* navbar style */
     nav.container {
         max-width: 100%;
@@ -22,64 +17,83 @@
         border-right: #cfd4d4 solid 1px;    
     }
 
+    /* header Dilan Li*/
     #Dilan {
         background-color:#243030;
         color: white;
     }
 
-    a {
-        color: #243030;
-        font-size: large;
+    /* header links */
+            a {
+                color: #243030;
+                font-size: large;
+            }
+
+            a:hover {
+                color: #629296;
+                text-decoration: none;
+            }
+
+            #active {
+                color: #51797c;
+                font-weight: bolder;
+            }
+
+
+
+
+/* Middle section style below */
+    /* Section title (About Me, Image Gallery, Contact) */
+    h2 {
+        font-weight: 600;
+        font-size: 1.5em;
+        color: #3d5d5f;
     }
 
-    a:hover {
-        color: #629296;
-        text-decoration: none;
-    }
-
-    #active {
-        color: #51797c;
-        font-weight: bolder;
-    }
-
-/* About Me section in index.html */
-#aboutMe img {
-    float: left;
-}
-
-#aboutMe p {
-    word-wrap: break-word;
-    float: left;
-}
-
-
-/* contact section style in contact.html */
-    form {
+    section {
         border: #c8dee0 dotted 2px;
         color: #243030;
-        background-color: #ffffff77;
+        background-color: #dff1f177;
     }
-    
-    .btn {
-        background-color: #243030;
-        border: wheat;
-    }
-    .btn:hover {
-        background-color: #629296;
+
+
+
+
+/* index.html*/
+p {
+    margin: 15px;
+}
+/* profile picture */
+#floated {
+    float: left;
 }
 
-section {
-    border: #c8dee0 dotted 2px;
-    color: #243030;
-    background-color: #ffffff77;
-}
 
-/* portfolio images in portfolio.html */
-#portfolioImages img {
-    max-width: 360px;
-    height: auto;
-    object-fit: cover;
-}
+
+
+/* contact.html*/
+    /*style for contact form*/
+        form {
+            border: #c8dee0 dotted 2px;
+            color: #243030;
+            background-color: #dff1f177;
+        }
+        
+        .btn {
+            background-color: #243030;
+            border: wheat;
+        }
+
+        .btn:hover {
+            background-color: #629296;
+        }
+
+/* portfolio.html - portfolio images*/
+    #portfolioImages img {
+        height: auto;
+        object-fit: cover;
+    }
+
 
 
 /* footer style */
