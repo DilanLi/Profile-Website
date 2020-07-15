@@ -12,4 +12,4 @@ This repository is a portfolio website for Dilan Li, consisting of a About Me (i
 - I was able to achieve the responsiveness without any media query
 
 ## Link to deployed application
-https://dilanli.github.io/Profile-Website---Bootstrap-4/
+https://dilanli.github.io/Profile-Website/
