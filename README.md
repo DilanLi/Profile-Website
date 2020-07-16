@@ -13,3 +13,7 @@ This repository is a portfolio website for Dilan Li, consisting of a About Me (i
 
 ## Link to deployed application
 https://dilanli.github.io/Profile-Website/
+
+## Credits
+Icons: https://icons8.com/icons
+

@@ -3,14 +3,17 @@
         font-family: Ubuntu! important;
     }
 
+    /* .container { */
+        /* margin: 0; */
+    /* } */
 
 
     
 /* navbar style */
     nav.container {
         max-width: 100%;
-        background-color: #dff1f177;
-        border-bottom: #629296  1px solid;
+        /* background-color: #dff1f177; */
+        /* border-bottom: #629296  1px solid; */
     }
 
     li:nth-of-type(1), li:nth-of-type(2) {
@@ -26,7 +29,7 @@
     /* header links */
             a {
                 color: #243030;
-                font-size: large;
+                font-size: 20px;
             }
 
             a:hover {
@@ -35,25 +38,52 @@
             }
 
             #active {
-                color: #51797c;
+                color: #0199c7;
                 font-weight: bolder;
+                font-size: 20px;
             }
 
+/*profile picture*/
+.headshot {
+    margin-top: 40px;
+    padding: 0;
+}
 
+#profile-picture {
+    height: 500px;
+}
 
 
 /* Middle section style below */
     /* Section title (About Me, Image Gallery, Contact) */
-    h2 {
+    /* h2 {
         font-weight: 600;
         font-size: 1.5em;
         color: #3d5d5f;
+    } */
+
+    .description {
+        margin-top: 70px;
     }
 
-    section {
-        border: #c8dee0 dotted 2px;
+    .hello-im-dilan {
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    p {
         color: #243030;
-        background-color: #dff1f177;
+        font-size: 30px;
+    }
+
+    .creative-solutions {
+        font-weight: 800;
+        font-style: oblique;
+        color: orange;
+    }
+
+    .opportunity {
+        font-weight: 600;
     }
 
 
@@ -62,10 +92,19 @@
 /* index.html*/
 p {
     margin: 15px;
+    /* clear: both; */
 }
-/* profile picture */
-#floated {
-    float: left;
+
+.logos-list{
+    float: right;
+}
+
+.logos {
+    height:3em;
+}
+
+.resume {
+    background-color: orange!important;
 }
 
 
@@ -88,11 +127,7 @@ p {
             background-color: #629296;
         }
 
-/* portfolio.html - portfolio images*/
-    #portfolioImages img {
-        height: auto;
-        object-fit: cover;
-    }
+
 
 
 

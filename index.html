@@ -7,26 +7,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- reset css -->
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style/reset.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS Style Sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <!-- Google Font - Ubuntu -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="container p-0">
-        <div class="row justify-content-between">
-            <!-- name logo -->
-            <div class="col-sm-12 col-md-3 pt-2 d-flex justify-content-center" id="Dilan">
-                <h1>Dilan Li</h1>
-            </div>
+    <div class="container">
+        <div class="row justify-content-end">
             <!-- About, Portfolio, Contact -->
-            <div class="col-sm-12 col-md-5 d-flex justify-content-center">
+            <div class="col-sm-12 col-md-6 d-flex justify-content-center pr-5">
                 <ul class="m-0 p-3">
                     <li class="d-inline px-2" id="active">
                         About
@@ -40,50 +35,42 @@
                 </ul>
             </div>
         </div>
-    </nav>
 
-    <!-- About Me Section -->
-    <div class="row m-3">
-        <section class="col-md-8 m-5">
-            <div>
-                <h2 class="m-3">About</h2>
-                <hr>
-                <!-- profile picture -->
-                <div>
-                    <div id="floated">
-                        <img src="pics/headshot.png" alt="profile picture" class="img-thumbnail mt-0 mx-3 mb-3">
-                    </div>
-                    <p class="m-3">
-                        Born and raised in China, Dilan moved to Utah at the age of 14. She enjoys books,reptiles,
-                        hiking, traveling and good food.
 
-                    <p>
-                        During college, Dilan's pursuit of visual aesthtics led her onto the journey of becoming an
-                        illustrator. Along with drawing and sketching, she accquired other designing skills such as
-                        Adobe illustrator, Photoshop, Indesign, etc.</p>
-
-                    <p>
-                        After college, her inner tendency of structure led to an interest for Web Development. In this
-                        process of becoming a web developer, Dilan wants to apply her sensitivity with design into the
-                        frontend, while developing the backend knowledge to support a smooth, interactive web
-                        experience. </p>
-
-                    <p>
-                        By the end of the program, Dilan will be ready to develope both the frontend and backend of a
-                        website by scratch. More importantly, she will be ready to support a professional team wherever
-                        her skills become most useful.</p>
+        <!-- About Me Section -->
+        <div class="row">
+            <div class="description col-md-6 col-sm-10">
+                <p class="hello-im-dilan">Hello,</p>
+                <p class="hello-im-dilan">I'm Dilan.</p>
+                <p class="text">
+                    Seeking <span class="creative-solutions p-2">creative solutions</span>
+                </p>
+                <p>and my next <span class="opportunity">opportunity</span></p>
+                <p>in web development.</p>
+                <div class="logos-list mr-5 mt-3">
+                    <img src="pics/github.svg" alt="github logo" class='logos'>
+                    <img src="pics/linkedin.png" alt="linkedin logo" class="logos">
+                    <button type="button" class="btn btn-warning resume">resume</button>
                 </div>
             </div>
-        </section>
+            <div class="headshot col-md-5 col-sm-10">
+                <img src="pics/headshot.png" alt="profile picture" id="profile-picture">
+            </div>
+
+        </div>
+
+
+
+
     </div>
 
 
     <!-- Sticky Footer -->
-    <footer class="navbar-dark bg-dark">
+    <!-- <footer class="navbar-dark bg-dark">
         <div class="container">
             &copy; Copyright
         </div>
-    </footer>
+    </footer> -->
 
 
     <!-- Optional JavaScript -->
