@@ -38,7 +38,7 @@
             }
 
             #active {
-                color: #0199c7;
+                color: #0288b1;
                 font-weight: bolder;
                 font-size: 20px;
             }
@@ -51,6 +51,7 @@
 
 #profile-picture {
     height: 500px;
+    border-radius: 1000px;
 }
 
 
@@ -141,5 +142,5 @@ p {
         background-color: rgb(19, 17, 17);
         color: #c9d0d1;
         text-align: center;
-        border-top: 3px #629296 solid;
+        border-top: 3px #0199c7 solid;
     }
