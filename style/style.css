@@ -54,6 +54,9 @@
     border-radius: 1000px;
 }
 
+.about-me{
+    margin-bottom: 30px!important;
+}
 
 /* Middle section style below */
     /* Section title (About Me, Image Gallery, Contact) */
@@ -88,9 +91,6 @@
     }
 
 
-
-
-/* index.html*/
 p {
     margin: 15px;
     /* clear: both; */
@@ -108,10 +108,33 @@ p {
     background-color: orange!important;
 }
 
+/* style for all gitHub projects */
 
+#projects-title{
+    font-weight: 600;
+    font-size: 35px;
+}
 
+.projects {
+    width: 100%;
+    border-radius: 15px;
+}
 
-/* contact.html*/
+.project-names {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.project-descriptions {
+    font-size: 20px;
+}
+
+.project-links {
+    font-size: 20px;
+    /* font-weight: 600; */
+    color:  #0288b1;
+}
+
     /*style for contact form*/
         form {
             border: #c8dee0 dotted 2px;
