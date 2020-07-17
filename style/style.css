@@ -131,15 +131,17 @@ p {
 }
 
 .project-descriptions {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .project-links {
-    font-size: 20px;
-    /* font-weight: 600; */
-    color:  #0288b1;
+    text-align: center;
 }
 
+.project-links a {
+    color:  #0288b1;
+    font-size: 17px;
+}
     /*style for contact form*/
         form {
             border: #c8dee0 dotted 2px;
