@@ -3,15 +3,12 @@
 
 <head>
     <title>About</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- reset css -->
     <link rel="stylesheet" href="style/reset.css">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="style/style.css">
     <!-- Google Font - Ubuntu -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
@@ -19,24 +16,24 @@
 
 <body>
     <!-- nav bar -->
-    <div class="container">
-        <div class="row justify-content-end">
-            <!-- About, Portfolio, Contact -->
-            <div class="col-sm-12 col-md-6 d-flex justify-content-center pr-5">
-                <ul class="m-0 p-3">
-                    <li class="d-inline px-2" id="active">
-                        About
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="#projects-title">Projects</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="row nav-bar">
+        <!-- About, Portfolio, Contact -->
+        <div class="col-sm-12">
+            <ul class="m-0 p-3">
+                <li class="d-inline pr-2">
+                    <a href="#about">About</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="#projects-title">Projects</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </div>
 
+    <div class="container" id="content-container">
 
         <!-- About Me Section -->
         <div class="row about-me">
@@ -49,10 +46,12 @@
                 <p>and my next <span class="opportunity">opportunity</span></p>
                 <p>in web development.</p>
                 <div class="logos-list mr-5 mt-3">
-                    <a href="https://github.com/DilanLi"><img src="assets/github.svg" alt="github logo" class='logos'></a>
+                    <a href="https://github.com/DilanLi"><img src="assets/github.svg" alt="github logo"
+                            class='logos'></a>
                     <a href="https://www.linkedin.com/in/dilan-li-b3a8b3170"><img src="assets/linkedin.png"
                             alt="linkedin logo" class="logos"></a>
-                    <a href="assets/Web Dev Resume.pdf"><button type="button" class="btn btn-warning resume">resume</button></a>
+                    <a href="assets/Web Dev Resume.pdf"><button type="button"
+                            class="btn btn-warning resume">resume</button></a>
                 </div>
             </div>
             <div class="headshot col-md-5 col-sm-10">
@@ -61,8 +60,34 @@
 
         </div>
 
+        <!-- About Me Text-->
         <hr class="my-5">
-
+        <div class="row">
+            <div class="col-md-2 col-sm-10 mb-3" id="projects-title">
+                <span id="about">About</span>
+            </div>
+            <div class="col-md-9 col-sm-12 about-me-text">
+                I am a junior frontend web developer who strives to deliver intuitive, responsive and meaningful user
+                experiences. My dream is to contribute to products and applications that enhance people’s everyday life
+                (and make them look good, of course).
+                <br><br>
+                I grew up in China and moved to Utah at the age of 14. Growing up in two distinct cultures, I became a
+                person who likes to maintain an open perspective and a curious mind. I love traveling, books, coffee,
+                animals, good food, video games, and much more.
+                <br><br>
+                My natural pursuit of visual harmony developed into a passion for art and later a Bachelor’s in Fine
+                Arts in 2018. I make illustrations, paintings, murals and digital art. My work has been featured in
+                organizations such as the Utah Museum of Contemporary Art and the Artists of Utah 15 Bytes Magazine. But
+                pretty quickly after graduation I realized I have a personality that seeks structure, functionality and
+                efficiency beyond my seemingly romantic artist identity. I developed an interest in web development and
+                fell in love with the different types of creativity that exist when it comes to solving a problem.
+                <br><br>
+                Upon my graduation from the University of Utah’s Full Stack Coding Bootcamp in 2020, I am ready to
+                contribute to a quality-driven team by leveraging my sensitivity in art as well as imaginative
+                approaches. Scroll down to see some of the projects I have completed so far.
+            </div>
+        </div>
+        <hr class="my-5">
 
         <!-- projects -->
         <div class="row">
@@ -78,51 +103,76 @@
                     <p class="project-names">Weather Dashboard</p>
                 </div>
                 <a href="https://dilanli.github.io/Weather-Dashboard/" class="project-links"><img
-                    src="assets/weather-dashboard.png" alt="weather project" class="projects"></a>
-                    <div class="d-flex justify-content-center">
-                        <div>
-                            <p class="project-descriptions">Search for any city on the globe and save to a favorite list.
-                                Features a five day forecast.</p>
-                            <div class="project-links"><a href="https://github.com/DilanLi/Weather-Dashboard" >GitHub repository</a></div>
-                        </div>
-                    </div>    
-                </div>    
+                        src="assets/weather-dashboard.png" alt="weather project" class="projects"></a>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="project-descriptions">Search for any city on the globe and save to a favorite list.
+                            Features a five day forecast.</p>
+                        <div class="project-links"><a href="https://github.com/DilanLi/Weather-Dashboard">GitHub
+                                repository</a></div>
+                    </div>
+                </div>
+            </div>
 
             <!-- scout 19 project -->
             <div class="col-md-5 col-sm-12 col-12 m-4">
                 <div class="d-flex justify-content-center">
                     <p class="project-names">Scout 19</p>
                 </div>
-                <a href="https://corvus-cyber.github.io/SCOUT19/" class="project-links"><img
-                    src="assets/scout19.png" alt="covid-19 application screenshot" class="projects"></a>
-                    <div class="d-flex justify-content-center">
-                        <div>
-                            <p class="project-descriptions">Group project of a 4-person crew. Users will be able to search for
-                                most current coivd-19 counts on national and state level. Other features include a US map
-                                displaying state grade of positive percentage, as well as a state line chart showcasing positive
-                                cases in a history of 14 days..</p>
-                            <div class="project-links"><a href="https://github.com/corvus-cyber/SCOUT19" >GitHub repository</a></div>
-                        </div>
-                    </div>        
-        </div>
-        </div>
-        
-        <div class="row">
-            <div class="row d-flex justify-content-between">
-                <!-- weather dashboard project-->
-                <div class="col-md-5 col-sm-12 col-12 m-4">
-                    <div class="d-flex justify-content-center">
-                        <p class="project-names">JavaScript Quiz</p>
+                <a href="https://corvus-cyber.github.io/SCOUT19/" class="project-links"><img src="assets/scout19.png"
+                        alt="covid-19 application screenshot" class="projects"></a>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="project-descriptions">Group project of a 4-person crew. Users will be able to search
+                            for
+                            most current coivd-19 counts on national and state level. Other features include a US map
+                            displaying state grade of positive percentage, as well as a state line chart showcasing
+                            positive
+                            cases in a history of 14 days..</p>
+                        <div class="project-links"><a href="https://github.com/corvus-cyber/SCOUT19">GitHub
+                                repository</a></div>
                     </div>
-                    <a href="https://dilanli.github.io/Code-Quiz/"><img
-                        src="assets/javascript-quiz.png" alt="weather project" class="projects"></a>
-                        <div class="d-flex justify-content-center">
-                            <div>
-                                <p class="project-descriptions">Multiple choice browser quiz on JavaScript fundamentals.</p>
-                                <div class="project-links"><a href="https://github.com/DilanLi/Code-Quiz" >GitHub repository</a></div>
-                            </div>
-                        </div>    
-                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-between mt-4">
+            <!-- weather dashboard project-->
+            <div class="col-md-5 col-sm-12 col-12 mx-3">
+                <div class="d-flex justify-content-center">
+                    <p class="project-names">Weather Dashboard</p>
+                </div>
+                <a href="https://dilanli.github.io/Weather-Dashboard/" class="project-links"><img
+                        src="assets/weather-dashboard.png" alt="weather project" class="projects"></a>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="project-descriptions">Search for any city on the globe and save to a favorite list.
+                            Features a five day forecast.</p>
+                        <div class="project-links"><a href="https://github.com/DilanLi/Weather-Dashboard">GitHub
+                                repository</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- scout 19 project -->
+            <div class="col-md-5 col-sm-12 col-12 m-4">
+                <div class="d-flex justify-content-center">
+                    <p class="project-names">Scout 19</p>
+                </div>
+                <a href="https://corvus-cyber.github.io/SCOUT19/" class="project-links"><img src="assets/scout19.png"
+                        alt="covid-19 application screenshot" class="projects"></a>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="project-descriptions">Group project of a 4-person crew. Users will be able to search
+                            for
+                            most current coivd-19 counts on national and state level. Other features include a US map
+                            displaying state grade of positive percentage, as well as a state line chart showcasing
+                            positive
+                            cases in a history of 14 days..</p>
+                        <div class="project-links"><a href="https://github.com/corvus-cyber/SCOUT19">GitHub
+                                repository</a></div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -136,7 +186,8 @@
                     <div id="information">
                         <p>Dilan Li</p>
                         <p>email: dilanli0706@gmail.com</p>
-                        </a><p>GitHub: <a href="https://github.com/DilanLi">https://github.com/DilanLi</a></p>
+                        </a>
+                        <p>GitHub: <a href="https://github.com/DilanLi">https://github.com/DilanLi</a></p>
                         <p>phone: 801-686-7177</p>
                     </div>
                 </div>
@@ -156,7 +207,6 @@
     </footer>
 
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -167,6 +217,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
 </body>
 
 </html>

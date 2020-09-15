@@ -7,17 +7,31 @@
         /* margin: 0; */
     /* } */
 
+.overall-container {
+    margin-left: 10%;
+    margin-right: 10%
+}
 
     
 /* navbar style */
-    nav.container {
-        max-width: 100%;
-        /* background-color: #dff1f177; */
-        /* border-bottom: #629296  1px solid; */
+    .nav-bar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background-color:#343a40!important;
+        text-align: center;
+        border-bottom: 3px #0199c7 solid;
+        padding-left: 7%;
+        z-index: 10;
     }
 
-    li:nth-of-type(1), li:nth-of-type(2) {
-        border-right: #cfd4d4 solid 1px;    
+    nav.container {
+        max-width: 100%;
+    }
+
+    .nav-bar ul {
+        float: left;
     }
 
     /* header Dilan Li*/
@@ -27,9 +41,15 @@
     }
 
     /* header links */
-            a {
-                color: #243030;
+            ul a {
+                color: #eaeeee;
                 font-size: 20px;
+            }
+
+            ul .active {
+                color: #0288b1;
+                font-weight: bolder;
+                font-size: 20px
             }
 
             a:hover {
@@ -37,11 +57,10 @@
                 text-decoration: none;
             }
 
-            #active {
-                color: #0288b1;
-                font-weight: bolder;
-                font-size: 20px;
-            }
+
+#content-container {
+    margin-top: 65px;
+}
 
 /*profile picture*/
 .headshot {
@@ -58,13 +77,9 @@
     margin-bottom: 30px!important;
 }
 
-/* Middle section style below */
-    /* Section title (About Me, Image Gallery, Contact) */
-    /* h2 {
-        font-weight: 600;
-        font-size: 1.5em;
-        color: #3d5d5f;
-    } */
+.about-me-text {
+    font-size: larger;
+}
 
     .description {
         margin-top: 70px;
