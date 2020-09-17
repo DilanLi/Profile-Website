@@ -24,12 +24,6 @@
         float: left;
     }
 
-    /* header Dilan Li*/
-    #Dilan {
-        background-color:#243030;
-        color: white;
-    }
-
     /* header links */
             ul a {
                 color: #eaeeee;
@@ -53,9 +47,11 @@
 }
 
 /*profile picture*/
-.headshot {
+.responsive {
     margin-top: 40px;
     padding: 0;
+    width: 100%;
+    height: auto;
 }
 
 #profile-picture {
@@ -152,9 +148,9 @@ p {
     /*style for contact form*/
         
 
-        #information p{
-            font-size: 20px;
-        }
+     #information p{
+        font-size: 20px;
+    }
 
     #contact {
         font-weight: 600;
@@ -170,9 +166,10 @@ p {
     margin-bottom: 0;
     padding-top: 20px;
     padding-bottom: 25px;
-    width: 100%;
+    padding-left: 13%;
+    width: 130%;
     background-color: #42484f;
-    text-align: center;
+    text-align: left
 }
 
 .contact-container p, .contact-container a {
